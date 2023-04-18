@@ -6,13 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="556dp"
+        android:layout_height="821dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="@drawable/fndinicio" />
+
+    <TextView
+        android:id="@+id/txtInicio"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Little Fifa"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="294dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="75dp"
+        android:text="Acceder"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtDescrip"
+        android:layout_width="150dp"
+        android:layout_height="84dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Aplicación de Gestion de Jornadas de fútbol"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/txtDescrip2"
+        android:layout_width="239dp"
+        android:layout_height="59dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Creado por: Pablo iglesias Pose"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="622dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
