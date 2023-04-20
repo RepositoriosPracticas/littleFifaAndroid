@@ -31,3 +31,4 @@ Posibilidad de ver resultados de partidos anteriores.
 Posibilidad de ver la clasificación de esa jornada
 Posibilidad de ver los resultados de otras jornadas jornada
 Posibilidad de ordenar los resultados de primero a último y viceversa
+.
