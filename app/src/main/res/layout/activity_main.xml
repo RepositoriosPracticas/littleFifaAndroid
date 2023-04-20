@@ -21,10 +21,6 @@
         android:id="@+id/txtInicio"
         android:layout_width="305dp"
         android:layout_height="64dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="546dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Little Fifa"
         android:textAlignment="center"
@@ -33,10 +29,8 @@
         android:textColor="#FFFFFF"
         android:textSize="60sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <Button
         android:id="@+id/btnInicio"
@@ -60,36 +54,25 @@
         android:id="@+id/txtDescrip"
         android:layout_width="150dp"
         android:layout_height="84dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="102dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="454dp"
         android:fontFamily="sans-serif-thin"
         android:text="Aplicación de Gestion de Jornadas de fútbol"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="102dp" />
 
     <TextView
         android:id="@+id/txtDescrip2"
-        android:layout_width="233dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="613dp"
-        android:layout_marginEnd="126dp"
+        android:layout_width="239dp"
+        android:layout_height="59dp"
         android:fontFamily="sans-serif-thin"
         android:text="Creado por: Pablo iglesias Pose"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="622dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

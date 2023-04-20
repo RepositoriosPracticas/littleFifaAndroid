@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1232dp"
+        android:layout_height="1508dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-804dp"
+        tools:layout_editor_absoluteY="-178dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iamgen de fondo"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="titulo"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subtitulo"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="165dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
