@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="556dp"
-        android:layout_height="821dp"
+        android:layout_width="597dp"
+        android:layout_height="961dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,10 @@
     <TextView
         android:id="@+id/txtInicio"
         android:layout_width="305dp"
-        android:layout_height="64dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="613dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Little Fifa"
         android:textAlignment="center"
@@ -29,8 +32,9 @@
         android:textColor="#FFFFFF"
         android:textSize="60sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtDescrip2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnInicio"
@@ -53,26 +57,31 @@
     <TextView
         android:id="@+id/txtDescrip"
         android:layout_width="150dp"
-        android:layout_height="84dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="436dp"
         android:fontFamily="sans-serif-thin"
         android:text="Aplicación de Gestion de Jornadas de fútbol"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtDescrip2"
+        app:layout_constraintStart_toStartOf="@+id/txtInicio"
+        app:layout_constraintTop_toBottomOf="@+id/txtInicio" />
 
     <TextView
         android:id="@+id/txtDescrip2"
-        android:layout_width="239dp"
-        android:layout_height="59dp"
+        android:layout_width="410dp"
+        android:layout_height="31dp"
         android:fontFamily="sans-serif-thin"
         android:text="Creado por: Pablo iglesias Pose"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="622dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInicio" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
