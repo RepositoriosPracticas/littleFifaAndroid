@@ -14,6 +14,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Spinner
+        android:id="@+id/spinCategoria"
         android:layout_width="203dp"
         android:layout_height="26dp"
         tools:layout_editor_absoluteX="204dp"
