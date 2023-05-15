@@ -10,28 +10,50 @@
         android:id="@+id/spinTemporada"
         android:layout_width="203dp"
         android:layout_height="26dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="705dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinCategoria"
         android:layout_width="203dp"
         android:layout_height="26dp"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginStart="204dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="705dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/swResultados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="668dp"
         android:text="Ordenar resultados"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="36dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
         android:layout_height="666dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="64dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
