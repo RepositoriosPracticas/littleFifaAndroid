@@ -20,9 +20,18 @@
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="0dp" />
 
+    <Switch
+        android:id="@+id/swResultados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordenar resultados"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="36dp" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
-        android:layout_height="704dp"
+        android:layout_height="666dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="26dp" />
+        tools:layout_editor_absoluteY="64dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
