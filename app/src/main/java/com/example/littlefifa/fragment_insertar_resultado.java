@@ -7,8 +7,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Spinner;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +15,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class BlankFragment extends Fragment {
+public class fragment_insertar_resultado extends Fragment {
 
     private static final String DB_URL = "jdbc:mysql://mysql.colexio-karbo.com/karbo_piglesias";
     private static final String USER = "karbo_piglesias";
