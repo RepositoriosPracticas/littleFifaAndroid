@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="383dp"
-        android:layout_height="679dp"
+        android:layout_width="443dp"
+        android:layout_height="778dp"
         android:src="@drawable/fndBienve"
-        tools:layout_editor_absoluteX="-10dp"
-        tools:layout_editor_absoluteY="-20dp" />
+        app:layout_constraintBaseline_toBaselineOf="parent"
+        tools:layout_editor_absoluteX="-10dp" />
 
     <TextView
         android:id="@+id/txtBienve"
