@@ -1,4 +1,4 @@
-# littleFifaWeb
+# littleFifaApp
 
 Little Fifa será un app para un colegio, la cual va a ayudar a gestionar la liga que tienen, gestionando su base de datos (tanto leyendo como escribiendo datos) para realizar la consulta que se necesite con la mayor comodidad posible, ya que en la actualidad el sistema que usan es enrevesado y complicado.
 
